@@ -1,0 +1,89 @@
+.detail-projet-container {
+  padding: 2rem;
+  background-color: #f9fafb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.header-projet {
+  margin-bottom: 1rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.header-projet p {
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+}
+
+.note-button {
+  margin-top: 1rem;
+  background-color: #6366f1;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.note-button:hover {
+  background-color: #4f46e5;
+}
+
+.tabs-container {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.tabs-container button {
+  padding: 0.5rem 1.2rem;
+  background-color: #e5e7eb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.tabs-container .active {
+  background-color: #6366f1;
+  color: white;
+}
+
+.tab-content {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.taches-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.taches-table th, .taches-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.taches-table th {
+  background-color: #f3f4f6;
+  color: #374151;
+}
+
+
+.taches-table th,
+.taches-table td {
+  text-align: center;
+  padding: 8px;
+}
+
+.tabs-container button.active {
+  background-color: #5b4df5;
+  color: white;
+}
